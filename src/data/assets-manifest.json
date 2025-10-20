@@ -1,6 +1,6 @@
 {
   "configModified": {
-    "siteDefaults": 1760570329903,
+    "siteDefaults": 1760774252028,
     "siteLogo": 1754383794286,
     "siteColors": 1760194029116,
     "siteImages": 1760570329917
@@ -28,7 +28,7 @@
       "datetime": "2025-08-31T10:24:13.083Z"
     },
     "manifest.webmanifest": {
-      "datetime": "2025-10-15T23:24:13.405Z"
+      "datetime": "2025-10-20T09:46:50.175Z"
     }
   },
   "css": {
@@ -41,7 +41,7 @@
     },
     "inline": {
       "file": "/src/data/generated-inline-css.ts",
-      "datetime": "2025-10-14T06:02:08.126Z",
+      "datetime": "2025-10-20T09:46:33.138Z",
       "names": [
         "base",
         "colors",
@@ -51,8 +51,8 @@
       ]
     },
     "main": {
-      "file": "/styles/main.v8mkqx.css",
-      "datetime": "2025-10-15T23:24:06.334Z",
+      "file": "/styles/main.kq6l8e.css",
+      "datetime": "2025-10-20T09:46:37.838Z",
       "names": [
         "blockquote",
         "callout",
@@ -68,16 +68,22 @@
         "search",
         "star-rating",
         "table",
+        "toc",
         "utilities"
       ]
     },
     "pages": {
       "file": "/styles/",
-      "datetime": "2025-10-15T23:24:08.689Z",
+      "datetime": "2025-10-20T09:46:40.996Z",
       "names": [
+        "audio-layout",
         "contact-form",
         "home",
-        "post-layout"
+        "post-layout",
+        "team-index",
+        "team-layout",
+        "video-layout",
+        "video-player"
       ],
       "dir": "/styles/"
     },
@@ -123,8 +129,8 @@
   },
   "json": {
     "search-index": {
-      "file": "/search-index.01tto8.json",
-      "datetime": "2025-10-15T23:23:55.188Z"
+      "file": "/search-index.zu8qz3.json",
+      "datetime": "2025-10-20T09:46:14.345Z"
     }
   },
   "js": {
@@ -145,8 +151,8 @@
       "datetime": "2025-09-08T14:08:37.542Z"
     },
     "analytics-consent-handler": {
-      "file": "/scripts/analytics-consent-handler.gv9v2l.min.js",
-      "datetime": "2025-10-14T06:02:17.629Z"
+      "file": "/scripts/analytics-consent-handler.68d6q6.min.js",
+      "datetime": "2025-10-20T09:46:44.387Z"
     },
     "header-menu-theme": {
       "file": "/scripts/header-menu-theme.pb8k85.min.js",

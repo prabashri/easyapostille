@@ -1,11 +1,5 @@
  /* colors respect light/dark; tweak if needed */
- .post-header{
-	background-color: var(--primary-darker);
-    background-image: url('/icons/dots-background.svg');
-	background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 60%;
-} 
+
  :root {
     --hw-col: 44px;          /* step column width on mobile */
     --hw-gap: 12px;          /* gap between node and content (.75rem ≈ 12px) */
@@ -19,7 +13,7 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 56px 1fr; /* left | center | right */
-    row-gap: 3rem;
+    row-gap: 0rem;
     column-gap: 2.5rem;
     padding-block: .5rem;
   }

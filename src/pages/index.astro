@@ -52,7 +52,7 @@ const headProps: HeadProps = {
  
      <CssFilesToLoad
         files={[
-          { name: "home", inline: true}
+          { name: "home", inline: false, id: "home-external-css", fetchPriority: "high"}
         ]}
       />
   </Fragment>

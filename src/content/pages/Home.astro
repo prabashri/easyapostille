@@ -45,71 +45,70 @@ const waHref1  = wa1 ? buildWhatsAppLink({
   source: 'home-contact',
 }) : '';
 
-
 const faq = [
-  {
-    question: "Is a scan enough?",
-    answer: "Yes—for many personal documents we can start with scans. We'll confirm if originals are required."
-  },
-  {
-    question: "What is the EasyApostille cost of MEA apostille in India?",
-    answer: `EasyApostille offers a transparent SDM bundle for many personal/education cases: ${inr(price('sdmBundle'))} per document (Notary + SDM (Delhi) + MEA + premium return). Multi-document discounts apply; HRD/CoC, if required, are quoted after route confirmation.`,
-    speakable: true
-  },
-  {
-    question: "How long does it take?",
-    answer: "Typically 2-3 working days for most personal documents; commercial docs may vary."
-  },
-  {
-    question: "Do you cover all Indian states?",
-    answer: "Yes, we provide nationwide service across all states and union territories in India."
-  },
-  {
-    question: "Where are you based?",
-    answer: "Johnson Complex, Rajaji Nagar, Thanjavur, Tamil Nadu 613004 — India. Open in Maps"
-  },
-  {
-    question: "Is my data safe?",
-    answer: "Absolutely. We follow strict privacy controls and secure disposal policies."
-  },
-  {
-    question: "Can you arrange pickup/delivery?",
-    answer: "Yes, we can arrange secure pickup and delivery anywhere in India."
-  },
-  {
-    question: "Is the apostille valid abroad?",
-    answer: "Yes, apostilles issued by the MEA are recognized in all Hague Convention member countries."
-  },
-  {
-    question: "Which documents can be apostilled?",
-    answer: "Common documents for apostille include educational certificates (degrees, diplomas), birth and marriage certificates, power of attorney, affidavits, and commercial documents like invoices and agreements."
-  },
-  {
-    question: "How long does the apostille process take?",
-    answer: "The apostille process typically takes 2-3 working days for most personal documents. However, timelines may vary based on document type and issuing state."
-  },
-  {
-    question: "What are the costs involved in getting a document apostilled?",
-    answer: "Costs vary depending on the type of document and the number of documents. We offer transparent pricing with no hidden charges and discounts for multiple documents."
-  },
-  {
-    question: "Can I send scanned copies of my documents for apostille?",
-    answer: "Yes, we accept both physical and scanned copies of documents. We will guide you through the process based on your preference."
-  },
-  {
-    question: "Is there a way to track the status of my apostille request?",
-    answer: "Yes, we provide real-time tracking and proactive updates at each step of the apostille process."
-  },
-  {
-    question: "What if I need an urgent apostille service?",
-    answer: "We understand that some situations require urgency. Please contact us directly to discuss expedited options based on your specific needs."
-  }
+    {
+        question: "What is the cost of MEA apostille with EasyApostille?",
+        answer: `Our transparent SDM bundle covers Notary + SDM (Delhi) + MEA + premium return for ₹${inr(price('sdmBundle'))} per document. Discounts apply for multiple documents; HRD/CoC, if needed, are quoted after route confirmation.`,
+        speakable: true
+    },
+    {
+        question: "Is a scanned copy enough to start?",
+        answer: "Yes, for most personal and educational documents we can start with scanned copies. We'll confirm if the original is needed for the final step."
+    },
+    {
+        question: "Do you offer document pickup and delivery?",
+        answer: "Yes. We provide secure doorstep pickup and delivery services across all major Indian cities and towns."
+    },
+    {
+        question: "How long does it take to complete the apostille?",
+        answer: "Usually 2–3 working days for most personal documents. Educational or state-specific documents may take slightly longer."
+    },
+    {
+        question: "Do you cover all Indian states?",
+        answer: "Yes. EasyApostille serves clients across every Indian state and union territory through our nationwide partner network."
+    },
+    {
+        question: "Are apostilles from India valid abroad?",
+        answer: "Yes. Apostilles issued by the MEA are recognized in all Hague Convention member countries."
+    },
+    {
+        question: "Is my data secure with EasyApostille?",
+        answer: "Yes. We maintain strict privacy, encryption, and document disposal standards to ensure your data remains safe."
+    }
 ];
+
 ---
 
 <article id="post-layout">
   <header id="post-header" class="post-header mx-w-100p w-100p mi-auto ta-center bg-primary-darker relative overflow-hidden">
-        <div id="hero-section" class="flex flex-col md-flex-row lg-flex-row max-w-site mi-auto w-100p py-2 px-1 ai-start gap-2 hero-wrap relative">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" class="absolute inset-0 w-100p h-100p pointer-events-none" aria-hidden="true" focusable="false" preserveAspectRatio="none">
+        <path fill="none" d="M0 0h800v800H0z"/>
+        <g fill="none" stroke="#5db2fc27">
+            <path d="m769 229 268 31.9M927 880 731 737l-211-77-211-122-269 61 255 165-168.5 115.5L40 599l-237-106 299-111-133-153L126.5 79.5-69-63"/>
+            <path d="m-31 229 268 32 153 121 213 111-294.5 44.5-207-156M370 905l-75-141"/>
+            <path d="m520 660 58 182 153-105 109-138-237-106-83 167-225 104 14-226 81-156 149-113 230-40L577.5 41.5 370 105 295-36 126.5 79.5 237 261 102 382 40 599-69 737l196 143"/>
+            <path d="m520-140 58.5 182.5L731-63M603 493l-64-224-302-8 133-156m532 277L539 269M390 382H102"/>
+            <path d="m-222 42 348.5 37.5L370 105l169 164 38.5-227.5L927 80 769 229l133 153-299 111 128 244M295-36l282.5 77.5M578 842l-283-78M40-201l87 281m-25 302-363-113"/>
+        </g>
+        <g fill="#10458a69">
+            <circle cx="769" cy="229" r="14"/>
+            <circle cx="539" cy="269" r="14"/>
+            <circle cx="603" cy="493" r="14"/>
+            <circle cx="731" cy="737" r="14"/>
+            <circle cx="520" cy="660" r="14"/>
+            <circle cx="309" cy="538" r="14"/>
+            <circle cx="295" cy="764" r="14"/>
+            <circle cx="40" cy="599" r="14"/>
+            <circle cx="102" cy="382" r="14"/>
+            <circle cx="127" cy="80" r="14"/>
+            <circle cx="370" cy="105" r="14"/>
+            <circle cx="578" cy="42" r="14"/>
+            <circle cx="237" cy="261" r="14"/>
+            <circle cx="390" cy="382" r="14"/>
+        </g>
+        </svg>
+    
+    <div id="hero-section" class="flex flex-col md-flex-row lg-flex-row max-w-site mi-auto w-100p py-2 px-1 ai-start gap-2 hero-wrap relative">
             {/** Left: Text */}
             <div class="hero-text max-w-content flex-1 relative col-base-00 ta-start">
                 <h1 class="post-title regular text-xs">
@@ -277,7 +276,7 @@ const faq = [
             <li class="how-item right">
                 <div class="how-node" aria-hidden="true"><span>1</span></div>
                 <div class="how-content">
-                    <h3 class="text-l bold mb-0">Contact &amp; Plan Finalization</h3>
+                    <h3 class="text-l bold my-0">Contact &amp; Plan Finalization</h3>
                     <p class="text-s opacity-90">
                     Chat with us on WhatsApp, phone, or through our contact form. We confirm and finalize
                     the <strong>handover type</strong> (<em>scan</em> or <em>originals</em>) and the
@@ -289,7 +288,7 @@ const faq = [
 
             <li class="how-item left">
                 <div class="how-content ta-right">
-                    <h3 class="text-l bold mb-0">Payment &amp; Document Handover</h3>
+                    <h3 class="text-l bold my-0">Payment &amp; Document Handover</h3>
                     <p class="text-s opacity-90">
                     Pay securely via <strong>UPI</strong> or <strong>bank transfer</strong>
                     (GST invoice available). Then, upload scans or schedule courier pickup.
@@ -302,7 +301,7 @@ const faq = [
             <li class="how-item right">
                 <div class="how-node" aria-hidden="true"><span>3</span></div>
                 <div class="how-content">
-                    <h3 class="text-l bold mb-0">Notary Attestation</h3>
+                    <h3 class="text-l bold my-0">Notary Attestation</h3>
                     <p class="text-s opacity-90">
                     Your document is authenticated by a government-approved notary when required.
                     <Anchor href="/services/personal-documents-apostille/"
@@ -316,7 +315,7 @@ const faq = [
 
             <li class="how-item left">
                 <div class="how-content ta-right">
-                    <h3 class="text-l bold mb-0">SDM / State Attestation</h3>
+                    <h3 class="text-l bold my-0">SDM / State Attestation</h3>
                     <p class="text-s opacity-90">
                     Attested by Sub-Divisional Magistrate (SDM) or State Home/HRD department, depending on your document category and destination country.
                     </p>
@@ -327,7 +326,7 @@ const faq = [
             <li class="how-item right">
                 <div class="how-node" aria-hidden="true"><span>5</span></div>
                 <div class="how-content">
-                    <h3 class="text-l bold mb-0">MEA Apostille</h3>
+                    <h3 class="text-l bold my-0">MEA Apostille</h3>
                     <p class="text-s opacity-90">
                     Submitted to the Ministry of External Affairs (MEA) for final
                     <strong>authentication and apostille issuance</strong>.
@@ -342,7 +341,7 @@ const faq = [
 
             <li class="how-item left">
                 <div class="how-content ta-right">
-                    <h3 class="text-l bold mb-0">Digital Copy &amp; Verification</h3>
+                    <h3 class="text-l bold my-0">Digital Copy &amp; Verification</h3>
                     <p class="text-s opacity-90">
                     Once completed, a scanned apostille page or e-Apostille PDF (with official verification link)
                     is shared instantly via WhatsApp/email for immediate use.
@@ -354,7 +353,7 @@ const faq = [
             <li class="how-item right">
                 <div class="how-node" aria-hidden="true"><span>7</span></div>
                 <div class="how-content">
-                    <h3 class="text-l bold mb-0">Secure Home Delivery</h3>
+                    <h3 class="text-l bold my-0">Secure Home Delivery</h3>
                     <p class="text-s opacity-90">
                     Originals are couriered safely across India with <strong>tracking</strong> and
                     <strong>insurance coverage</strong> in tamper-evident packaging.
@@ -743,7 +742,7 @@ const faq = [
           answerClass='bg-primary-lighter-x'
           heading="Frequently Asked Questions"
           headingTag="h2"
-          openAll={true}
+          openAll={false}
           addSchema={true}
           addSpeakableSchema={true}
           htmlAnswers={false}
