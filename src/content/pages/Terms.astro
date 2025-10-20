@@ -133,10 +133,14 @@ const privacyPath =
 
     <h2 id="4-fees-payments">4. Fees &amp; Payments</h2>
     <ul>
-      <li>Quotes typically exclude <strong>government fees</strong> and <strong>courier/ancillary costs</strong> unless stated.</li>
-      <li>Government/office fees may change without notice; any difference will be payable prior to submission/release.</li>
-      <li>Payment gateways process your payment; we do not store full card details. Taxes apply where required.</li>
+      <li>Quotes typically exclude <strong>government fees</strong>, <strong>courier or logistics costs</strong>, and <strong>third-party charges</strong> unless clearly stated in writing.</li>
+      <li>Government/office fees are set by their respective authorities and may change without prior notice; any difference must be settled before submission or release of documents.</li>
+      <li>Payment gateways securely process your payments. We do not store or access full card details. Applicable taxes (GST or otherwise) are charged as required by law.</li>
+      <li>All service fees become <strong>non-refundable once processing starts</strong>, except as provided in our <Anchor href={refundPath}><strong>Refund Policy</strong></Anchor>.</li>
+      <li>Any <strong>re-delivery, address change, storage, return, or re-attempt delivery fees</strong> charged by couriers or logistics partners are payable by you at actual cost.</li>
+      <li>We reserve the right to revise our fees or introduce new charges with reasonable notice. Updated pricing applies to new or pending orders not yet accepted for processing.</li>
     </ul>
+
 
     <h2 id="5-timelines-no-guarantee">5. Timelines &amp; No Guarantee</h2>
     <p>
@@ -147,11 +151,13 @@ const privacyPath =
 
     <h2 id="6-third-parties-government">6. Third Parties &amp; Government Offices</h2>
     <p>
-      Notary offices, SDM, MEA, their outsourced service providers, couriers, payment gateways, hosting/CDN,
-      and email/analytics vendors are independent third parties with their own terms and policies. We share only the
-      minimum necessary information to complete your service and exercise due care in partner selection, but we cannot
-      control their internal handling.
+      Notary offices, SDM, MEA, their outsourced service providers, couriers and logistics aggregators, payment gateways,
+      hosting/CDN, and email/analytics vendors are independent third parties with their own terms and policies.
+      We share only the minimum necessary information to complete your service and exercise due care in partner selection,
+      but we do not control their internal operations. You agree that <strong>each third party is solely responsible</strong>
+      for its services, performance, and policies (including loss/damage handling, delivery attempt rules, and KYC requirements).
     </p>
+
 
     <h2 id="7-doc-scan-printing">7. Document Scans, Printing &amp; Disposal</h2>
     <ul>
@@ -164,25 +170,77 @@ const privacyPath =
 
     <h2 id="8-logistics-risk">8. Logistics &amp; Risk of Loss</h2>
     <p>
-      We use reputable couriers with tracking and maintain internal chain-of-custody steps. Risk of loss or damage in transit,
-      or at Government offices, cannot be fully eliminated. Consider keeping certified copies and informing us if you need
-      insured transit (where available).
+      We use reputable couriers/logistics partners with tracking and maintain internal chain-of-custody steps. While we take
+      reasonable care, <strong>risk of loss, delay, or damage in transit cannot be fully eliminated</strong>. If you are sending
+      originals, consider keeping certified copies and requesting <strong>insured transit</strong> where available (see §8C).
     </p>
+
+    <h3 id="8a-handover-and-title">8A. Handover, Title &amp; Risk Transfer</h3>
+    <p>
+      (i) For items we dispatch to you: <strong>risk transfers to you upon handover to the courier</strong> (pickup scan) and
+      the shipment thereafter is governed by the courier’s terms, including any liability caps; (ii) For items you dispatch to us:
+      <strong>risk remains with you</strong> until we acknowledge receipt (inward scan). Government offices may retain custody
+      during processing; we cannot control their handling.
+    </p>
+
+    <h3 id="8b-address-and-delivery">8B. Address Accuracy, Attempts &amp; Returns</h3>
+    <p>
+      You are responsible for providing a complete, accurate delivery address, recipient name/number, and any entry or customs
+      information. Couriers may make limited delivery attempts and may require government-issued ID or OTP. If delivery fails due
+      to incorrect/incomplete address, recipient unavailability, refusal, or non-payment of duties, the shipment may be returned
+      or disposed per courier policy. <strong>Re-delivery, address change, storage, or return fees</strong> are chargeable.
+    </p>
+
+    <h3 id="8c-declared-value-and-insurance">8C. Declared Value &amp; Insurance</h3>
+    <p>
+      Unless you request otherwise in writing before dispatch, shipments are sent at <strong>standard declared value</strong>
+      with <strong>no additional insurance</strong>. Additional insurance (where offered by the courier) must be requested and paid
+      for in advance. Courier liability (including for loss or damage) is typically limited by weight or declared value and may be
+      below your actual loss. We are <strong>not an insurer</strong> and do not provide indemnity beyond §12.
+    </p>
+
+    <h3 id="8d-international-shipments">8D. International Shipments (NRI/Overseas)</h3>
+    <p>
+      Cross-border shipments may incur <strong>customs duties/taxes, import restrictions, KYC, or brokerage requirements</strong>.
+      These are your responsibility unless we expressly agree otherwise in writing. Transit times vary by route, security checks,
+      and customs clearance. Certain destinations do not support delivery to P.O. Boxes.
+    </p>
+
+    <h3 id="8e-packing-and-prohibited-items">8E. Packing, Prohibited Items &amp; Tamper</h3>
+    <p>
+      We use reasonable packing for documents. You must not send prohibited or restricted materials. If you receive a
+      <strong>tampered package</strong>, refuse delivery where safe to do so and report it to the courier and us immediately with photos
+      and the airway bill number.
+    </p>
+
+    <h3 id="8f-claims-and-evidence">8F. Claims, Evidence &amp; Deadlines</h3>
+    <p>
+      Courier claims are subject to strict deadlines (often <strong>48–72 hours</strong> for visible damage and <strong>7–14 days</strong>
+      for loss/non-delivery). You must notify us <em>in writing</em> within <strong>48 hours</strong> of delivery (damage) or expected
+      delivery date (loss) with supporting evidence (photos of packaging/item, invoice, airway bill, police complaint if required).
+      We will assist in lodging a claim with the courier; <strong>settlements are limited to the courier’s admitted liability</strong>.
+      Our liability remains limited as per §12.
+    </p>
+
 
     <h2 id="9-cancellations-refunds">9. Cancellations &amp; Refunds</h2>
     <p>
-        Refunds are governed by our <a href={refundPath}><strong>Refund Policy</strong></a>, which is incorporated into these Terms.
-        In brief:
+      Refunds are governed by our <Anchor href={refundPath}><strong>Refund Policy</strong></Anchor>, which forms part of these Terms.
+      In summary:
     </p>
     <ul>
-        <li><strong>No refund</strong> once Notary processing has <em>started</em> (handover/queueing confirmed).</li>
-        <li><strong>Before Notary start</strong> (physical documents received): refund of <strong>75% of service fee</strong>,less any courier/logistics actually incurred; government/office fees are non-refundable.</li>
-        <li><strong>Before Notary start</strong> (only scanned copies, no third-party costs): refund of <strong>75% of service fee</strong>.</li>
-        <li>Payment gateway charges, if non-refundable by the gateway, may be deducted.</li>
+      <li><strong>No refund</strong> is available once Notary or SDM processing has <em>started</em> (handover, queueing, or submission confirmed).</li>
+      <li><strong>Before Notary start</strong> (physical documents received): refund of <strong>75% of the service fee</strong>,
+          less any <strong>courier, pickup, or logistics expenses</strong> actually incurred. Government/office fees are non-refundable.</li>
+      <li><strong>Before Notary start</strong> (only scanned copies submitted, no physical handling): refund of <strong>75% of the service fee</strong>.</li>
+      <li>Payment gateway or bank charges, if non-refundable by the processor, may be deducted from the refund amount.</li>
+      <li>Loss or damage of documents during courier transit is subject to courier claim procedures under §8F, and any settlement is limited to the courier’s admitted liability plus our cap under §12.</li>
     </ul>
     <p>
-    For eligibility, method, and timelines, please read the full <Anchor href={refundPath}><strong>Refund Policy</strong></Anchor>.
+      For full eligibility conditions, refund methods, and timelines, please read the complete
+      <Anchor href={refundPath}><strong>Refund Policy</strong></Anchor>.
     </p>
+
 
     <h2 id="10-acceptable-use">10. Acceptable Use</h2>
     <p>
@@ -198,10 +256,17 @@ const privacyPath =
 
     <h2 id="12-limitation-liability">12. Limitation of Liability</h2>
     <p>
-      To the maximum extent permitted by law, our total liability for any claims arising out of or related to the services
-      shall not exceed the total service fees you paid to us for the specific order giving rise to the claim. We are not
-      liable for indirect, incidental, special, punitive, or consequential damages, nor for delays or actions of Government offices or third parties.
+      To the maximum extent permitted by law, our total liability for any claim, loss, or damage arising out of or relating
+      to the services shall not exceed the total <strong>service fees actually paid to us</strong> for the specific order that gave
+      rise to the claim. We are not responsible for indirect, incidental, consequential, special, or punitive damages,
+      including loss of data, time, opportunity, or goodwill.
     </p>
+    <p>
+      We are <strong>not liable</strong> for actions, delays, or omissions of Government offices, Notaries, SDM, MEA, or any
+      third-party courier/logistics provider. For any courier-related loss or damage, compensation (if any) shall be limited
+      to the amount admitted by the courier under its own terms, <strong>and in no case exceed our total service fee cap</strong>.
+    </p>
+
 
     <h2 id="13-indemnity">13. Indemnity</h2>
     <p>

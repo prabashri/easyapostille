@@ -75,8 +75,8 @@ const location = addr
       addr.addressCountryCode
     )
   : '';
-
 ---
+
 <article class="w-100p">
   <HeroPages
     variant="post"
@@ -89,32 +89,37 @@ const location = addr
     authorHref={authorHref}
   />
 
-  <section class="max-w-content mi-auto px-1 py-2">
+  <section class="max-w-content mx-auto px-1 py-2">
     <h2 id="who-we-help">Who we help</h2>
     <p>
-      Easy Apostille helps <strong>students</strong>, <strong>professionals</strong>, <strong>families</strong>, and <strong>businesses</strong>
-      get documents accepted abroad—fast and safely.
+      <strong>EasyApostille</strong> helps <strong>students</strong>, <strong>professionals</strong>, <strong>families</strong>, and <strong>businesses</strong>
+      get documents accepted abroad—fast and safely. We support both <strong>Sticker</strong> and <strong>e-Apostille (QR)</strong>.
+      <br />
+      <span class="text-s opacity-80">
+        If you’re an NRI or need <strong>global delivery/coordination</strong>, our international brand
+        {' '}<Anchor href="https://verifiedapostille.com" rel="noopener">VerifiedApostille.com</Anchor> provides the same team, routes, and worldwide courier options.
+      </span>
     </p>
     <ul>
       <li><strong>Students:</strong> university admissions, WES/credential evaluations.</li>
       <li><strong>Professionals:</strong> work visas, employment contracts, PCC needs.</li>
       <li><strong>Families:</strong> birth/marriage/adoption/death certificates for overseas use.</li>
-      <li><strong>Businesses:</strong> board resolutions, incorporation docs, POA.</li>
+      <li><strong>Businesses:</strong> board resolutions, incorporation docs, POA, invoices.</li>
     </ul>
 
     <h2 id="who-we-are">Who we are</h2>
     <ul>
       <li>
         <strong>Team Head — <Anchor href={prabaHref}>Prabakaran Shankar</Anchor>:</strong>
-        strategy and oversight of the entire apostille/attestation workflow (Notary → SDM → MEA).
+        strategy and oversight of the apostille/attestation workflow (Notary → SDM/HRD/CoC → MEA).
       </li>
       <li>
         <strong>Client Success — Lakshmishri Prabakaran:</strong>
-        leads all <strong>communications</strong> with users and customers, clarifications, document checks, and timeline updates.
+        leads <strong>communications</strong>, clarifications, document checks, and timeline updates.
       </li>
       <li>
         <strong>Dispatch &amp; QA — Vasudevan Shankar:</strong>
-        manages <strong>dispatch, verification, and final checks</strong> for documents before and after processing.
+        manages <strong>dispatch, verification, and final checks</strong> before and after processing.
       </li>
     </ul>
     <p>
@@ -142,14 +147,15 @@ const location = addr
     <ol>
       <li><strong>Check:</strong> share scans; we confirm steps for your country/purpose.</li>
       <li><strong>Notary:</strong> preparation &amp; notarisation (where applicable).</li>
-      <li><strong>SDM:</strong> attestation by Sub-Divisional Magistrate (if required).</li>
-      <li><strong>MEA:</strong> apostille/attestation for final acceptance.</li>
+      <li><strong>SDM/HRD/CoC:</strong> pre-authentication as per document type.</li>
+      <li><strong>MEA:</strong> apostille/attestation (Sticker or e-Apostille QR).</li>
       <li><strong>Return:</strong> tracked delivery back to you.</li>
     </ol>
 
     <h2 id="courier">Courier &amp; safe handling</h2>
     <p>
-      We use trusted logistics partners for pickups and returns, including <strong>The Professional Couriers</strong>, <strong>Blue Dart</strong>, <strong>ST Courier</strong>, and <strong>DTDC</strong>.
+      We use trusted logistics partners for pickups and returns in India, including <strong>The Professional Couriers</strong>, <strong>Blue Dart</strong>, <strong>ST Courier</strong>, and <strong>DTDC</strong>.
+      For international routes, our team (via <Anchor href="https://verifiedapostille.com" rel="noopener">VerifiedApostille.com</Anchor>) can arrange <strong>DHL</strong>/<strong>FedEx</strong> and other premium options with <strong>insurance</strong>, <strong>priority delivery</strong>, and <strong>signature on delivery</strong> where available.
       Originals are packed securely and tracked; scans are printed only when needed and disposed of safely.
     </p>
 
@@ -179,8 +185,8 @@ const location = addr
       {' '}
       <Anchor href={contactPath}><strong>Contact {siteDefaults.siteName}</strong></Anchor>
       {' '}or email{' '}
-      <Anchor href={`mailto:${siteDefaults.contact?.email || 'hello@example.com'}`}>
-        <strong>{siteDefaults.contact?.email || 'hello@example.com'}</strong>
+      <Anchor href={`mailto:${siteDefaults.contact?.email || 'contact@easyapostille.in'}`}>
+        <strong>{siteDefaults.contact?.email || 'contact@easyapostille.in'}</strong>
       </Anchor>
       {telHref && (
         <>
@@ -192,6 +198,11 @@ const location = addr
           {' '}| WhatsApp <Anchor href={waHref}><strong>{waDigits}</strong></Anchor>
         </>
       )}
+    </p>
+
+    <p class="text-s opacity-80 mt-1">
+      For NRI/global coordination or overseas delivery, visit our international site:
+      {' '}<Anchor href="https://verifiedapostille.com" rel="noopener"><strong>VerifiedApostille.com</strong></Anchor>.
     </p>
   </section>
 </article>
