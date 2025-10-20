@@ -57,7 +57,7 @@ export const localBusiness: LocalBusinessConfig = {
   /* Global defaults */
   online: {
     serviceUrl: `${siteBase}/services/`,
-    bookingUrl: `${siteBase}/contact/`,
+    bookingUrl: `${siteBase}/contact-us/`,
     servicePhone: CONTACT_PHONE,
     serviceEmail: CONTACT_EMAIL,
     whatsapp: CONTACT_WHATSAPP,
@@ -112,8 +112,8 @@ export const localBusiness: LocalBusinessConfig = {
       serviceArea: ["India"],
       openingHours: null,
       online: {
-        serviceUrl: `${siteBase}/order/`,
-        bookingUrl: `${siteBase}/contact/`,
+        serviceUrl: `${siteBase}/services/`,
+        bookingUrl: `${siteBase}/contact-us/`,
         servicePhone: CONTACT_PHONE,
         serviceEmail: CONTACT_EMAIL,
         whatsapp: CONTACT_WHATSAPP,
