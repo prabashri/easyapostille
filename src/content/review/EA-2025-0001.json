@@ -20,7 +20,7 @@
   "orderNumber": "EA-58231",
   "pros": ["Clear communication", "On-time delivery", "Transparent pricing"],
   "cons": [],
-  "target": { "type": "Service", "name": "Degree Certificate Apostille", "url": "/services/document-apostille/" },
+  "target": { "type": "Service", "name": "Degree Certificate Apostille", "url": "/services/degree-certificate-apostille/" },
   "media": [
     {
       "type": "image",

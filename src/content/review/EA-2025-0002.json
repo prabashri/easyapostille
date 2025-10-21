@@ -14,13 +14,13 @@
     "profileUrl": "",
     "avatar": ""
   },
-  "service": { "slug": "document-apostille", "name": "Document Apostille" },
+  "service": { "slug": "education-documents-apostille", "name": "Document Apostille" },
   "location": { "name": "Daejeon, South Korea", "city": "Daejeon", "countryCode": "KR" },
   "verifiedPurchase": true,
   "orderNumber": "EA-58231",
   "pros": ["Good communication"],
   "cons": [],
-   "target": { "type": "Service", "name": "Marksheet Apostille", "url": "/services/marksheet-apostille/" },
+   "target": { "type": "Service", "name": "Marksheet Apostille", "url": "/services/marksheets-apostille/" },
   "media": [
     {
       "type": "image",

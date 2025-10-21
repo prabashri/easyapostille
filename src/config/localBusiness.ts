@@ -72,11 +72,11 @@ export const localBusiness: LocalBusinessConfig = {
   services: [
     svc("meaApostille",       "/services/apostille-india/"),
     svc("degreeSdmBundle",    "/services/degree-certificate-apostille/"),
-    svc("marksheetSdmBundle", "/services/marksheet-apostille/"),
+    svc("marksheetSdmBundle", "/services/marksheets-apostille/"),
     svc("marriageSdmBundle",  "/services/marriage-certificate-apostille/"),
     svc("birthSdmBundle",     "/services/birth-certificate-apostille/"),
     svc("pccMeaApostille",    "/services/pcc-apostille/"),
-    svc("meaApostille",       "/services/business-document-apostille/")
+    svc("meaApostille",       "/services/business-documents-apostille/")
   ],
 
   priceRange: "₹₹",
